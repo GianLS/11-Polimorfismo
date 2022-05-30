@@ -5,22 +5,21 @@ import lombok.Getter;
 
 public class CalculoBonificacao {
 	@Getter
-	private float somaBonificacao = 0.0f;
+	private double totalBonificacao = 0.0f;
 
 	public void registra(Funcionario funcionario) {
-		float bonificacao = funcionario.getBonificacao();
-		this.somaBonificacao += bonificacao;
+		this.totalBonificacao += funcionario.getBonificacao();
 	}
 	
 //	public void registra(Gerente gerente) {
-//		this.somaBonificacao += gerente.getBonificacao();
+//		this.totalBonificacao += gerente.getBonificacao();
 //	}
 //	
 //	public void registra(EditorVideo editor) {
-//		this.somaBonificacao += editor.getBonificacao();
+//		this.totalBonificacao += editor.getBonificacao();
 //	}
 //	
 //	public void registra(Designer designer) {
-//		this.somaBonificacao += designer.getBonificacao();
+//		this.totalBonificacao += designer.getBonificacao();
 //	}
 }

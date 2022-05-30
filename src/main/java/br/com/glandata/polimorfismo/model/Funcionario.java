@@ -10,14 +10,14 @@ public class Funcionario {
 
 	@Getter
 	@Setter
-	private float salario;
+	private double salario;
 
 	/**
 	 * Gera a bonificacao do Funcionário
 	 * @return Valor da Bonificação
 	 */
-	public float getBonificacao() {
-		return this.salario * 0.1f;
+	public double getBonificacao() {
+		return this.salario * 0.15;
 	}
 
 }

@@ -1,19 +1,15 @@
 package br.com.glandata.polimorfismo.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
 public class Gerente extends Funcionario {
-	@Getter
-	@Setter
-	private Integer senha;
+	private Integer senha = 123456;
 
 	public Boolean auteticarGerente(Integer senha) {
 		return this.senha.equals(senha);
 	}
 
 	@Override
-	public float getBonificacao() {
+	public double getBonificacao() {
+		System.out.println("Chamando o método de bonificação do Gerente");
 		return super.getSalario() + super.getBonificacao();
 	}
 }
