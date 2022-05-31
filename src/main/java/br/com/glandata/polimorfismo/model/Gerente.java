@@ -3,7 +3,7 @@ package br.com.glandata.polimorfismo.model;
 public class Gerente extends Funcionario {
 	private Integer senha = 123456;
 
-	public Boolean auteticarGerente(Integer senha) {
+	public Boolean autenticarGerente(Integer senha) {
 		return this.senha.equals(senha);
 	}
 

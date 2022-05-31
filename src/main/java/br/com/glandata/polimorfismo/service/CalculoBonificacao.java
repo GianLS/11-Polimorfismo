@@ -1,4 +1,4 @@
-package br.com.glandata.service;
+package br.com.glandata.polimorfismo.service;
 
 import br.com.glandata.polimorfismo.model.Funcionario;
 import lombok.Getter;
