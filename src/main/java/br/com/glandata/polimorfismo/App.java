@@ -2,7 +2,6 @@ package br.com.glandata.polimorfismo;
 
 import br.com.glandata.polimorfismo.model.Designer;
 import br.com.glandata.polimorfismo.model.EditorVideo;
-import br.com.glandata.polimorfismo.model.Funcionario;
 import br.com.glandata.polimorfismo.model.Gerente;
 import br.com.glandata.polimorfismo.service.CalculoBonificacao;
 
